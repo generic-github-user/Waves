@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>
+			Waves
+		</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+	</head>
+	<body>
+		<div id="controls">
+			<button onclick="addWave()">Add Wave</button>
+			
+			<div class="float-left margin-right">
+				<p>Wavelength: </p>
+				<input id="wavelength" type="text" value="25"></input>
+				
+				<p>Amplitude: </p>
+				<input id="amplitude" type="text" value="50"></input>
+			</div>
+			
+			<div class="float-left">
+				<p>Offset: </p>
+				<input id="offset" type="text" value="0"></input>
+				
+				<p>Resolution: </p>
+				<input id="resolution" type="text" value="100"></input>
+			</div>
+		</div>
+		
+		<canvas id="canvas" width="1000" height="1000"></canvas>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
